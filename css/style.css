@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    background: url("../images./header_bg.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+a{
+    margin: 0px 10px;
+}
+
+.logo{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+.header{
+    margin: 0px -25px;
+    padding: 10px;
+    border: 20px solid white;
+    border-top: 0px;
+    background: white;
+}
+
+.headerButtons{
+    top:-1%;
+    float: right;
+}
+
+.buttons{
+    width: 75%;
+    height: 20%;
+    position: absolute;
+    left:50%;
+    top:80%;
+    transform: translate(-50%, -50%);
+}
