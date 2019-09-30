@@ -11,9 +11,20 @@ body{
 }
 
 a{
+    display: inline-block;
     margin: 0px 10px;
     padding: 20px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    text-decoration: none;
 }
+
+i{
+    color: gray;
+}
+
 
 .logo{
     position: absolute;
@@ -23,7 +34,7 @@ a{
 }
 
 .header{
-    padding: 10px 0;
+    padding: -20px 0;
     background: white;
     position: absolute;
     width: 100%;
@@ -38,6 +49,48 @@ a{
     height: 20%;
     position: absolute;
     left:50%;
-    top:80%;
-    transform: translate(-50%, -50%);
+    top:70%;
+    transform: translate(-50%, -50%); 
+}
+
+.buttonsToPages{
+    width: 75%;
+    height: 20%;
+    position: absolute;
+
+    transform: translate(20%, 0%); 
+}
+
+.headerButtonsForPages{
+    float: right;
+    padding-right: -75px;
+    color: lightgray;
+}
+
+.headerButtonsToPages{
+    float: left;
+    color: lightgray;
+    padding-right: -75px;
+}
+
+.headerButtonsToPagesColor{
+    color: black;
+    margin: 0px 10px;
+    padding: 0px 0px;
+}
+
+.headerPages{
+    margin-bottom: -5%;
+    background: white;
+    position: absolute;
+    width: 100%;
+}
+
+.headerLogo{
+    color: lightgray;
+    max-width: 25%;
+    max-height: 25%;
+    float: right;
+    padding: 7.5px 7.5px 0px 0;
+    margin-left: -100px;
 }
