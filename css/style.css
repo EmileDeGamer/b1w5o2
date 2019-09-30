@@ -2,9 +2,6 @@ body{
     margin: 0px;
     padding: 0px;
     background: url("../images./header_bg.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
     color: rgba(255, 255, 255, 0.8);
@@ -53,14 +50,6 @@ i{
     transform: translate(-50%, -50%); 
 }
 
-.buttonsToPages{
-    width: 75%;
-    height: 20%;
-    position: absolute;
-
-    transform: translate(20%, 0%); 
-}
-
 .headerButtonsForPages{
     float: right;
     padding-right: -75px;
@@ -70,7 +59,6 @@ i{
 .headerButtonsToPages{
     float: left;
     color: lightgray;
-    padding-right: -75px;
 }
 
 .headerButtonsToPagesColor{
@@ -84,13 +72,4 @@ i{
     background: white;
     position: absolute;
     width: 100%;
-}
-
-.headerLogo{
-    color: lightgray;
-    max-width: 25%;
-    max-height: 25%;
-    float: right;
-    padding: 7.5px 7.5px 0px 0;
-    margin-left: -100px;
 }
